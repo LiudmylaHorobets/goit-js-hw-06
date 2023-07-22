@@ -21,6 +21,9 @@ function onSubmit(e) {
       email: email.value,
       password: password.value,
     };
+
+    console.log(formData);
+
     e.currentTarget.reset();
   }
 }
